@@ -57,10 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Mahmud Hasan</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
+            A freelance web designer and developer from Dhaka, Bangladesh.I
+            always make websites that have unique designs and also has a good
             performance rate.
           </PText>
         </div>
@@ -72,11 +72,6 @@ export default function Footer() {
                 title: 'Home',
                 path: '/',
                 type: 'Link',
-              },
-              {
-                type: 'Link',
-                title: 'About',
-                path: '/about',
               },
               {
                 type: 'Link',
@@ -96,15 +91,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+8801740884008',
+                path: 'tel:+8801740884008',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'mahmud.hasan.programming@gmail.com',
+                path: 'mahmud.hasan.programming@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Dhaka, Bangladesh',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -132,12 +127,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>© 2022 - Designed By Mahmud Hasan</PText>
         </div>
       </div>
     </FooterStyle>
